@@ -1,15 +1,20 @@
 set showcmd
-set wildmenu            " visual autocomplete for command menu
-set showmatch           " highlight matching [{()}]
+" visual autocomplete for command menu
+set wildmenu
+" highlight matching [{()}]
+set showmatch           
 set paste
 set number
-set relativenumber
 set autoindent
 set ts=2
 set sw=2
 set smarttab
 set expandtab
 syntax enable
-filetype indent on      " load filetype-specific indent files
-# yaml files set 2 tab spaces on carriage returns
-autocmd FileType yaml setlocal ai ts=2 sts=2 sw=2 expandtab
+
+" load filetype-specific indent files
+filetype indent on
+
+" yaml files set 2 tab spaces on carriage returns
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
