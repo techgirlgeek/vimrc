@@ -2,8 +2,7 @@ set showcmd
 " visual autocomplete for command menu
 set wildmenu
 " highlight matching [{()}]
-set showmatch           
-set paste
+set showmatch
 set number
 set autoindent
 set ts=2
